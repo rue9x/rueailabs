@@ -17,7 +17,7 @@ pip install -r requirements.txt
 py rueailabs.py / python rueailabs.py
 
 # How to set up?
-1. Edit config.json. Add your keys for ElevenLabs, OpenAI and AzureTTS.
+1. Edit config.json. Add your keys for ElevenLabs, OpenAI and AzureTTS, each encoded in base64 for protection (https://base64decode.org/)
 2. In voices.json, for elevenlabs:
    - "shortname name of voice (make one up": "elevenlabs_voice_id"
 3. In config.json, change "voice" to whatever shorthand name of the voices you set up in step 2.
